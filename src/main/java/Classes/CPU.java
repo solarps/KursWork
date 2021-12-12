@@ -14,14 +14,4 @@ public class CPU {
         }
         isActive = true;
     }
-
-   /* @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("CPU{");
-        for (Core core : cores) {
-            sb.append(core.getState()).append(",");
-        }
-        sb.append('}');
-        return sb.toString();
-    }*/
 }
